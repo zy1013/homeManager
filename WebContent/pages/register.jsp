@@ -226,14 +226,7 @@
         
     <script>
         var int = new Date().getTime();
-        var user = '${user}';
-        var obj = JSON.parse(user);
-
-
-        alert(user);
-    </script>
-    <script>
-   
+        alert(int);
     </script>
     <!-- jQuery -->
     <script src="./vendor/jquery/jquery.min.js"></script>
@@ -244,8 +237,7 @@
     <!-- Metis Menu Plugin JavaScript -->
     <script src="./vendor/metisMenu/metisMenu.min.js"></script>
 
-    <!-- Data Exchange JavaScript -->
-    
+
 
     <!-- Custom Theme JavaScript -->
     <script src="./dist/js/sb-admin-2.js"></script>
